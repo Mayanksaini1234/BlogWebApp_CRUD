@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>BlogPur</h1>
+        <a href="/new" id="newPostBtn">New post</a>
+        <ul id="postsList">
+            <% post.forEach(post=>{ %>
+                <li>
+                    <h2>
+                        <%= post.title %>
+                    </h2>
+                    <small>
+                        <%= post.date %>
+                    </small>
+                    <p>
+                        <%= post.content %>
+                    </p>
+                    <small>BY: <%= post.author%>
+                    </small>
+                </li>
+<a class="edit" href="/edit/<%= post.id %>">Edit</a>
+<a class="delete" href="/api/posts/delete/<%= post.id %>">Delete</a>
+
+                <% }) %>
+
+
+
+        </ul>
+    </div>
+</body>
+
+</html>
