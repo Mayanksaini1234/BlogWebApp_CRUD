@@ -1,2 +1,0 @@
-add postgresQl after learn it so that
- CRUD and saving proper ho pye
