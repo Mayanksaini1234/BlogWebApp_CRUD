@@ -1,6 +1,6 @@
 # MyBlog_WebApp
 
-## This project is a web application for reading, creating, editing, and deleting blog posts. It utilizes a custom API for managing blog content.
+## This project is a web application for reading, creating, editing, and deleting blog posts so it performs CRUD opeartions . It utilizes a custom API for managing blog content and PostgrSQL for data retention.
 
 ### Technologies Used:
 - Node.js
@@ -8,6 +8,7 @@
 - EJS
 - CSS
 - API
+- PostgreSQL
 
 ### Usage
 Once the server is running, users can perform CRUD operations on blog posts through the provided endpoints.
@@ -18,6 +19,7 @@ This project relies on the following dependencies:
 - ejs: Embedded JavaScript templating.
 - axios: Promise-based HTTP client for Node.js.
 - CustomBlogAPI: API for managing blog content.
+- pg : For using PostgreSQL
 
 ### Installation:
 1. Clone the repository:
