@@ -7,7 +7,7 @@
 - Express.js
 - EJS
 - CSS
-- API
+-  Custom API
 - PostgreSQL
 
 ### Usage
